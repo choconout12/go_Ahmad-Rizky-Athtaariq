@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	//menghitung luas trapesium
+	var pa int
+	var pb int
+	var t int
+	fmt.Print("Masukan panjang atas : ")
+	fmt.Scan(&pa)
+	fmt.Print("Masukan panjang bawah : ")
+	fmt.Scan(&pb)
+	fmt.Print("Masukan tinggi : ")
+	fmt.Scan(&t)
+
+	hasil := (pa + pb) * t / 2
+	fmt.Printf("Hasil luas trapesium %d\n", hasil)
+
+}
