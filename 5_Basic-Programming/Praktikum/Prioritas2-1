@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	//for loop
+	var angka int
+	fmt.Print("Masukan angka : ")
+	fmt.Scan(&angka)
+
+	for i := 1; i <= angka; i++ {
+		for j := 1; j <= angka-i; j++ {
+			fmt.Print(" ")
+		}
+		for k := 1; k <= i; k++ {
+			fmt.Print("* ")
+		}
+		fmt.Println()
+	}
+}
