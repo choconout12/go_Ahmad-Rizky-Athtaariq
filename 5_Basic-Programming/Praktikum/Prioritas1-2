@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	//mencetak angka genap ganjil
+	var angka int
+	fmt.Print("Masukan angka : ")
+	fmt.Scan(&angka)
+
+	if angka%2 == 0 {
+		fmt.Println("Angka tersebut adalah : genap")
+	} else {
+		fmt.Println("Angka tersebut adalah : ganjil")
+	}
+
+}
