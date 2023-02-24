@@ -1,2 +1,3 @@
--Mengetahui tentang version control system dan Branch management (Git)
--cara menambahkan commit dan message ke git
+-Pengenalan tentang versioning control system dan branch management git
+-Cara melakukan commit dan push ke github
+-Cara melakukan Branch ke git
