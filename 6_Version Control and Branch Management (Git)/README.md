@@ -1,0 +1,2 @@
+-Mengetahui tentang version control system dan Branch management (Git)
+-cara menambahkan commit dan message ke git
