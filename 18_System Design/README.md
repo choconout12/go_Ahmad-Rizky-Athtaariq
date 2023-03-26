@@ -1,0 +1,23 @@
+# System design adalah proses merancang arsitektur dan struktur sebuah sistem atau aplikasi dengan mempertimbangkan kebutuhan fungsional dan non-fungsionalnya. Tujuan dari system design adalah untuk menghasilkan sebuah rancangan sistem yang dapat mengakomodasi kebutuhan pengguna dan memenuhi persyaratan teknis, seperti skalabilitas, kehandalan, keamanan, dan kinerja.
+
+## Dalam system design, diagram digunakan untuk merepresentasikan berbagai aspek dari arsitektur sistem. Diagram dapat membantu dalam memvisualisasikan struktur sistem, komponen-komponen yang terlibat, aliran data, dan interaksi antara komponen-komponen tersebut. Berikut adalah beberapa jenis diagram yang umum digunakan dalam system design:
+1. Diagram Alur Data (Data Flow Diagram): digunakan untuk menggambarkan bagaimana data bergerak dalam sebuah sistem.
+2. Diagram Use Case: digunakan untuk menunjukkan berbagai interaksi antara pengguna dengan sistem.
+3. Diagram Kelas (Class Diagram): digunakan untuk merepresentasikan kelas-kelas objek dalam sebuah sistem dan hubungan antara kelas-kelas tersebut.
+4. Diagram Aktivitas (Activity Diagram): digunakan untuk menggambarkan alur aktivitas dalam sebuah proses atau sistem.
+5. Diagram Komponen (Component Diagram): digunakan untuk menggambarkan komponen-komponen dalam sebuah sistem dan hubungan antara komponen-komponen tersebut.
+6. Diagram Sekuens (Sequence Diagram): digunakan untuk menunjukkan interaksi antara objek-objek dalam sebuah sistem dalam urutan waktu.
+
+## Distributed system dalam system design adalah sebuah sistem komputer yang terdiri dari beberapa komputer atau node yang terhubung melalui jaringan komputer dan bekerja sama untuk menyelesaikan suatu tugas atau memproses suatu data. Tugas atau pekerjaan dibagi-bagi dan dikerjakan secara paralel oleh berbagai komputer atau node, yang masing-masing mempunyai peran dan tugasnya sendiri-sendiri. Komunikasi dan koordinasi antar node diatur oleh suatu mekanisme tertentu, seperti protokol jaringan atau middleware, untuk memastikan bahwa semua tugas dan pekerjaan dikerjakan secara benar dan terkoordinasi.
+
+### Job queue adalah sebuah mekanisme dalam sistem yang digunakan untuk menangani pekerjaan atau tugas secara antrian. Dalam job queue, setiap tugas atau pekerjaan yang masuk akan ditambahkan ke dalam antrian dan dikerjakan secara berurutan. Sebuah job queue bisa digunakan untuk menangani tugas-tugas seperti pengiriman email, pemrosesan data, atau tugas-tugas terjadwal lainnya.
+
+### Microservice adalah pendekatan desain sistem yang memecah aplikasi atau sistem menjadi beberapa komponen atau layanan kecil yang terpisah dan saling berinteraksi melalui API (Application Programming Interface). Setiap layanan atau komponen mikro dalam microservice memiliki tugas dan tanggung jawabnya sendiri-sendiri, dan masing-masing dapat dikembangkan, diuji, dan dideploy secara independen.
+
+### SQL merupakan jenis database management system relasional yang menggunakan bahasa SQL untuk mengakses dan mengelola data. SQL banyak digunakan dalam sistem yang membutuhkan struktur data yang kompleks, seperti sistem keuangan, manajemen inventaris, dan manajemen stok.
+
+### NoSQL memungkinkan untuk scaling horizontal (menambahkan lebih banyak node komputer) tanpa harus memindahkan atau mengubah struktur data yang ada, sehingga NoSQL cocok untuk sistem yang membutuhkan skalabilitas yang tinggi dan performa yang cepat, seperti sistem analisis data besar (big data) dan aplikasi yang memproses data real-time.
+
+#### Cache adalah mekanisme penyimpanan data sementara pada sistem untuk mempercepat akses data yang sering dipakai. Ketika suatu data diminta oleh pengguna atau aplikasi, sistem akan mencari data tersebut di dalam cache terlebih dahulu sebelum mencarinya di dalam sumber data utama. Jika data sudah ada di dalam cache, maka data akan diambil dari cache, yang lebih cepat dan efisien, daripada mengambil data dari sumber utama.
+
+#### Indexing, di sisi lain, adalah proses pengelompokkan dan pengaturan data dalam basis data atau sistem informasi. Indexing bertujuan untuk meningkatkan performa dan efisiensi sistem dalam melakukan pencarian data. Dalam sistem yang besar, pencarian data bisa memakan waktu yang cukup lama, terutama jika data tidak terstruktur dan tersebar di banyak tabel. Indexing membantu mempercepat pencarian data dengan membuat indeks pada data, sehingga pencarian data dapat dilakukan lebih efisien dan cepat.
